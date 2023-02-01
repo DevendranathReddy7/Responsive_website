@@ -1,0 +1,1 @@
+alert(document.querySelectorAll('h3')[0].value)
