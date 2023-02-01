@@ -1,0 +1,61 @@
+.row{
+    background-color: aliceblue;
+    padding-left: 5%;
+}
+.heading{
+    font-family: "Montserrat";
+    color: black;
+    font-weight: 700;
+    padding-top: 2%;
+    padding-left: 5%;
+
+}
+.extra{
+    display: block;
+}
+.a1{
+    float: left;
+}
+.a2{
+    float: right;
+}
+.image{
+    width: 60%;
+
+}
+h3{
+    font-family: "Montserrat";
+    color: black;
+    font-size: 17px;
+    
+}
+.credentails, .more{
+    padding: 2% 7% ;
+}
+.credentails{
+    padding-top: 6%;
+    border-style:groove;
+}
+
+/* home */
+
+.pmtimg{
+    width: 70%;
+    padding-left: 20%;
+}
+.tiles{
+    padding: 5% 4% 0% 0%;
+}
+.mode{
+    text-align: center;
+    font-family: "montserrat";
+    font-size: 25px;
+}
+.IMT{
+    width: 95%;
+}
+footer{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 1%;
+}
