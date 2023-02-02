@@ -30,13 +30,19 @@
 
         <div class="credentails col-lg-7">
             <h3>From Account </h3>
-            <input class="username" size="30" type="text">
-            
+            <input class="username" size="30" type="text" list="mylist" placeholder="Enter from account">
+            <datalist id="mylist">
+              <option value="51740013389">
+              <option value="51743389001">
+              <option value="53389174001">
+              <option value="50317408913">
+              <option value="51743389001">
+          </datalist>
             <h3>Choose Country</h3>
               <div class="input-group">
-                <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Choose country name">
                 <div class="input-group-append">
-                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Country</button>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">Australia</a>
                     <a class="dropdown-item" href="#">USA</a>
@@ -50,11 +56,15 @@
                 </div>
               </div>
 
-
+            
+            <h3>BSB/Branch code</h3>
+            <input class="username" size="30" type="text" placeholder="Enter BSB/Branch code">
             <h3>To Account</h3>
-            <input class="username" size="30" type="text">
+            <input class="username" size="30" type="text" placeholder="Enter to account">
             <h3>Enter Amount</h3>
-            <input class="username" size="30" type="text">
+            <input class="username" size="30" type="text" placeholder="Enter amount">
+            <h3>Description</h3>
+            <textarea class="username" rows="8" cols="33" size="30" placeholder="Purpose of transfer"></textarea>
             <br>
             
             <br>
